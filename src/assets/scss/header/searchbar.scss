@@ -1,0 +1,31 @@
+.searchbar {
+    background: #F5F5F5;
+    border-color: #F5F5F5;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    padding: 8px 16px;
+}
+
+.searchbar__input {
+    border: none;
+    display: flex;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.searchbar__button {
+    border: unset;
+    background: transparent;
+    cursor: pointer;
+}
+
+.searchbar__button__icon {
+    background: url("../img/search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 17px;
+    display: block;
+}

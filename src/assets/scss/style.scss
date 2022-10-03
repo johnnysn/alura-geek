@@ -1,0 +1,40 @@
+@import 'header/header', 'banner', 'footer', 'form', 'linha-produtos/linha-produtos';
+
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.container-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+    width: 1136px;
+}
+
+@media screen and (max-width: 1136px) {
+    .container-h {
+        padding: 1.25rem 1rem;
+        width: calc(100% - 2rem);
+    }
+}
+
+.container-v {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 0;
+    width: 1136px;
+    gap: 16px;
+}
+
+@media screen and (max-width: 1136px) {
+    .container-v {
+        padding: 1.25rem 1rem;
+        width: calc(100% - 2rem);
+    }
+}
