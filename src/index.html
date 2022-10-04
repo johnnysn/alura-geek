@@ -147,7 +147,7 @@
 
             <div class="container-v">
                 <div class="linha-produtos__header">
-                    <h3 class="linha-produtos__header__title">Consoles</h3>
+                    <h3 class="linha-produtos__header__title">Diversos</h3>
                     <a href=""><span>Ver tudo</span><i class="linha-produtos__header__arrow"></i></a>
                 </div>
                 <ul class="linha-produtos__itens">
@@ -198,16 +198,34 @@
     </main>
 
     <footer class="footer">
-        <div class="container-h">
-            <img src="" alt="" class="footer__logo">
+        <div class="container-v">
+            <section class="footer-top">
+                <img src="assets/img/Logo-footer.svg" alt="" class="footer-top__logo">
 
-            <div class="footer__links">
+                <ul class="footer-top__links">
+                    <li><a href="">Quem somos nós</a></li>
+                    <li><a href="">Política de privacidade</a></li>
+                    <li><a href="">Programa fidelidade</a></li>
+                    <li><a href="">Nossas lojas</a></li>
+                    <li><a href="">Quero ser franqueado</a></li>
+                    <li><a href="">Anuncie aqui</a></li>
+                </ul>
 
-            </div>
+                <form class="footer-top__form">
+                    <h3>Fale conosco</h3>
 
-            <div class="footer__form">
+                    <input type="text" name="nome" id="txtNome" placeholder="Insira o seu nome" class="form__input">
 
-            </div>
+                    <textarea name="mensagem" id="txtMensagem" cols="40" rows="5" placeholder="Escreva a sua mensagem" class="form__textarea"></textarea>
+
+                    <button class="footer__button" type="submit">Enviar mensagem</button>
+                </form>
+            </section>
+
+            <section class="footer-down">
+                <p class="footer-down__line">Desenvolvido por Johnny Gomes</p>
+                <p class="footer-down__line">2022</p>
+            </section>
         </div>
     </footer>
 </body>
