@@ -67,3 +67,4 @@ exports.default = series(
   parallel(copyHtml, imgTask, jsTask, series(sassTask, cssTask)),
   watchTask
 );
+exports.build = parallel(copyHtml, imgTask, jsTask, series(sassTask, cssTask));
